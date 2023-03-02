@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstract Classes\" />
+    <Folder Include="Enms\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="LINQ\" />
+    <Folder Include="Loosely Copled\" />
+    <Folder Include="SOLID PRINCIPLES\" />
+    <Folder Include="Statemanagment\" />
+    <Folder Include="Static\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
