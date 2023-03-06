@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract Classes\abstractClass.cs" />
+    <Compile Include="Interfaces\TestInterfaces.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -51,13 +52,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ClassInterals\" />
     <Folder Include="Enms\" />
-    <Folder Include="Interfaces\" />
+    <Folder Include="Inheritance\" />
     <Folder Include="LINQ\" />
     <Folder Include="Loosely Copled\" />
     <Folder Include="SOLID PRINCIPLES\" />
     <Folder Include="Statemanagment\" />
-    <Folder Include="Static\" />
+    <Folder Include="Static class and methods\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
