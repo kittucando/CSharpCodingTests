@@ -6,22 +6,26 @@ using System.Threading.Tasks;
 
 namespace OOPsConcepts.Interfaces
 {
-
+    // default Modifier of intefaces
 
     public interface IInterface1
     {
-        public void getEmployee();
+         void GetEmployee();
     }
 
     public interface IInterface2
     {
-        public void getEmployee();
+         void GetEmployee();
     }
     class TestInterfaces : IInterface1, IInterface2
     {
-
-       
-
-        
+         void IInterface1.GetEmployee()
+        {
+            Console.WriteLine("IInterface1.GetEmployee");
+        }
+         void IInterface2.GetEmployee()
+        {
+            Console.WriteLine("IInterface1.GetEmployee");
+        }
     }
 }
