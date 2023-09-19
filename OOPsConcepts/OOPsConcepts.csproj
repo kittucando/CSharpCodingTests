@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Abstract Classes\abstractClass.cs" />
     <Compile Include="Interfaces\TestInterfaces.cs" />
+    <Compile Include="FindDuplicateFromArray.cs" />
+    <Compile Include="palindromNumber.cs" />
+    <Compile Include="palindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Static class and methods\staticClassTest.cs" />
