@@ -43,26 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract Classes\abstractClass.cs" />
-    <Compile Include="Interfaces\TestInterfaces.cs" />
-    <Compile Include="FindDuplicateFromArray.cs" />
-    <Compile Include="palindromNumber.cs" />
-    <Compile Include="palindrome.cs" />
+    <Compile Include="OOPSTest\Abstraction\AbstractClasses.cs" />
+    <Compile Include="GeneralCodingTests\Fibonacci.cs" />
+    <Compile Include="GeneralCodingTests\PalindromeString.cs" />
+    <Compile Include="OOPSTest\Abstraction\AbstractClassesTest.cs" />
+    <Compile Include="OOPSTest\Interfaces\Inheritance\ChildClass1.cs" />
+    <Compile Include="OOPSTest\Interfaces\Inheritance\ParentClass.cs" />
+    <Compile Include="OOPSTest\Interfaces\TestInterfaces.cs" />
+    <Compile Include="GeneralCodingTests\FindDuplicateFromArray.cs" />
+    <Compile Include="GeneralCodingTests\PalindromeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Static class and methods\staticClassTest.cs" />
+    <Compile Include="OOPSTest\StaticClassesAndMethods\StaticClassTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ClassInterals\" />
-    <Folder Include="Enms\" />
-    <Folder Include="Inheritance\" />
-    <Folder Include="LINQ\" />
-    <Folder Include="Loosely Copled\" />
-    <Folder Include="SOLID PRINCIPLES\" />
-    <Folder Include="Statemanagment\" />
+    <Folder Include="OOPSTest\Encapsulation\AccessModifiers\" />
+    <Folder Include="OOPSTest\Polymorpism\" />
+    <Folder Include="OOPSTest\SOLID PRINCIPLES\" />
+    <Folder Include="PrimitiveTypes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

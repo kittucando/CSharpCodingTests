@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPsConcepts.Abstract_Classes
+namespace CSharpInterviewQuestions.OOPSTest.Interfaces.Inheritance
 {
-    abstract class abstractClass1
+    internal class ParentClass
     {
     }
 }

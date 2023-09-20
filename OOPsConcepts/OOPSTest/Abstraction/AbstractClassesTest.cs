@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPsConcepts
+namespace CSharpCodingTests
 {
-    class Program : A //, B - Abstract classes wont support Multiple inheritance
+    internal class ConcreteClass1 : A //, B - Abstract classes won't support Multiple inheritance
     {
-        private Program():base() { }
-        private Program(int v, string d) : base(0123123, text: "asfkjhas kfjasfj") { }
-        static void Main(string[] args)
+        private ConcreteClass1():base() { }
+        private ConcreteClass1(int v, string d) : base(0123123, text: "asfkjhas kfjasfj") { }
+        static void CheckAbstractMethods(string[] args)
         {
 
           // A a = new A();//cant create an instance of an abstract class
-           A a = new Program();//we can assign a class object to abstract class
+           A a = new ConcreteClass1();//we can assign a class object to abstract class
             a.MyMethod();            
             a.MyMethod2();
 
-            A b = new Program(34434123, "asfkjhas kfjasfj");//we can assign a class object to abstract class
+            A b = new ConcreteClass1(34434123, "asfkjhas kfjasfj");//we can assign a class object to abstract class
             b.MyMethod();
             b.MyMethod2();
             Console.Read();

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 
 namespace CSharpInterviewQuestions
@@ -11,7 +9,7 @@ namespace CSharpInterviewQuestions
     internal class FindDuplicateFromArray
 
     {
-        static void Main()
+        private static void FindDuplicate()
         {
             int[] arr = { 1, 2, 3, 4, 2, 7, 8, 8, 3, 10, 10 };
 
@@ -38,4 +36,4 @@ namespace CSharpInterviewQuestions
 
 
 
-}
+

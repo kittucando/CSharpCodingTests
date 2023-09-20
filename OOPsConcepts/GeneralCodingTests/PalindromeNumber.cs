@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using System;
 
-namespace CSharpInterviewQuestions
+namespace CSharpCodingTests
 {
-
-    using System;
-
-    class palindromNumber
-    {
-        static bool IsPalindrome(int number)
+    internal class PalindromeNumber
+    {       
+        internal bool IsPalindrome(int number) // we call not access in main method without modifier since default is private
         {
             int originalNumber = number;
             int reversedNumber = 0;
@@ -27,7 +20,7 @@ namespace CSharpInterviewQuestions
             return originalNumber == reversedNumber;
         }
 
-        static void Main()
+        internal void GetPalindromeNumber()
         {
             Console.Write("Enter a number: ");
             int input;
@@ -49,8 +42,4 @@ namespace CSharpInterviewQuestions
             }
         }
     }
-
-
-
-
 }

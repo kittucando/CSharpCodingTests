@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSharpInterviewQuestions.Static_class_and_methods
 {
-    static class staticClassTest
+    static class StaticClassTest
     {
         // int empNo = 0;// can not add non-static members into static class
-        static int empNo;
+       // static int empNo;
 
 
 
