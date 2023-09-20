@@ -1,4 +1,4 @@
-for all the folders check
+Things going to be added along with the basic programs and OOPs concepts
 -------------------------------
 1.	Defalt Datatypes and access modifiers
 2.	DEFINATIONS -- for all kind of classess(sealed, partial, abtract), interfaces, ENMS -- check properties and methods definations
