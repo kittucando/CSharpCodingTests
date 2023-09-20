@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeneralCodingTests\Check2ArraysEqual.cs" />
+    <Compile Include="GeneralCodingTests\FactorialofANumber.cs" />
+    <Compile Include="GeneralCodingTests\FindArmstrongNumber.cs" />
+    <Compile Include="GeneralCodingTests\FindDuplicatesInAnArray.cs" />
+    <Compile Include="GeneralCodingTests\GenerateRandomNumbers.cs" />
+    <Compile Include="GeneralCodingTests\PrimeNumber.cs" />
+    <Compile Include="GeneralCodingTests\SwappingNumbers.cs" />
     <Compile Include="OOPSTest\Abstraction\AbstractClasses.cs" />
     <Compile Include="GeneralCodingTests\Fibonacci.cs" />
     <Compile Include="GeneralCodingTests\PalindromeString.cs" />

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 
 
-namespace CSharpInterviewQuestions
+namespace CSharpCodingTests
 {
 
     internal class FindDuplicateFromArray

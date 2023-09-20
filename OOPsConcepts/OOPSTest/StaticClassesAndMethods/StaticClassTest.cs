@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpInterviewQuestions.Static_class_and_methods
+namespace CSharpCodingTests.Static_class_and_methods
 {
     static class StaticClassTest
     {
